@@ -1,0 +1,38 @@
+# Eclipse files
+.metadata/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Eclipse project files
+*.classpath
+*.project
+.settings/
+
+# Build directories
+bin/
+build/
+target/
+
+# Java files compiled
+*.class
+
+# Maven / Gradle
+.mvn/
+!**/src/main/**/.gitkeep
+!**/src/test/**/.gitkeep
+pom.xml
+target/
+.gradle/
+build/
+out/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Other IDEs
+.idea/
+*.iml
+.vscode/
